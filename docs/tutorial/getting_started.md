@@ -1,0 +1,44 @@
+---
+title: Getting started
+sidebar_position: 2
+---
+
+
+# Getting Started with NethVoice
+
+This guide will walk you through the basic steps to set up NethVoice on your system.
+
+## 1. Install NethServer 8
+
+Begin by installing NethServer 8 on your server.  
+- Download and follow the installation instructions from the [official guide](https://raw.githubusercontent.com/NethServer/ns8-docs/refs/heads/main/install.rst).
+- After installation, access the web interface at `https://<server_ip_or_fqdn>/cluster-admin/` using:
+  - **Username:** `admin`
+  - **Password:** `Nethesis,1234`
+- Create a cluster and ensure your server has a static IP address and a valid FQDN.
+
+## 2. Install and Configure NethVoice Proxy
+
+The NethVoice Proxy is required to enable secure remote access to NethVoice services.
+- Install the NethVoice Proxy module from the Software Center.
+- Assign a valid FQDN (e.g., `proxy.yourdomain.org`) and ensure the DNS record is configured.
+- Configure the network interface and public IP as needed.
+- Only one NethVoice Proxy can be installed per node.
+- For detailed steps, refer to the [NethVoice Proxy documentation](https://raw.githubusercontent.com/NethServer/ns8-docs/refs/heads/main/nethvoice_proxy.rst).
+
+## 3. Install NethVoice Module
+
+Once the proxy is configured, you can install the NethVoice module:
+- Open the **Software Center** from the web interface.
+- Search for the NethVoice application and click **Install**.
+- For more information, see the [Software Center documentation](https://raw.githubusercontent.com/NethServer/ns8-docs/refs/heads/main/software_center.rst).
+
+## 4. Configure NethVoice
+
+After installation, configure your NethVoice instance:
+- Follow the [NethVoice configuration guide](https://github.com/NethServer/ns8-docs/blob/main/nethvoice.rst) for detailed setup instructions.
+- Complete the initial configuration, add users, and set up your telephony environment as needed.
+
+---
+
+For each step, refer to the linked documentation for comprehensive, step-by-step instructions.
