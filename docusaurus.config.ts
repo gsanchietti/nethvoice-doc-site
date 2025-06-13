@@ -22,10 +22,12 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'gsanchietti', // Usually your GitHub org/user name.
+  projectName: 'nethvoice-doc-site', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // The branch that GitHub pages will deploy from.
+  trailingSlash: false, // Set to true if you want to add a trailing slash to all URLss
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -33,7 +35,24 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'it'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      it: {
+        label: 'Italian',
+        direction: 'ltr',
+        htmlLang: 'it-IT',
+        calendar: 'gregory',
+        path: 'it',
+      },
+    },
   },
 
   presets: [
@@ -102,6 +121,10 @@ const config: Config = {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'left',
         },
       ],
     },
