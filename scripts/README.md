@@ -1,11 +1,12 @@
 # Import a new document
 
-pip install "rst-to-myst[sphinx]"
-wget https://raw.githubusercontent.com/NethServer/ns8-docs/refs/heads/main/nethvoice_proxy.rst
+Enter this directory:
+```
+cd scripts
+```
 
-rst2myst convert nethvoice_proxy.rst
-mv nethvoice_proxy.md docs/administrator-manual/
+then run:
+```
+./import.sh https://raw.githubusercontent.com/NethServer/ns8-docs/refs/heads/main/nethvoice_proxy.rst
+```
 
-
-
-Replace admonitions with Docusaurus admonitions: https://docusaurus.io/docs/markdown-features/admonitions

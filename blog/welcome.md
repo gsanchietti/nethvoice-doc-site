@@ -1,8 +1,8 @@
 ---
-slug: first-blog-post
+slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
-tags: [hola, docusaurus]
+authors: [giacomo]
+tags: [welcome]
 ---
 
 Welcome

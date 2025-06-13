@@ -81,11 +81,17 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'administratorManualSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Administrator manual',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'faqSidebar',
+          position: 'left',
+          label: 'FAQ',
+        },
+        {to: '/blog', label: 'Announcements', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -100,8 +106,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Administrator manual',
+              to: '/docs/administrator-manual/',
+            },
+            {
+              label: 'FAQ',
+              to: '/docs/faq/',
             },
           ],
         },
@@ -109,16 +119,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'NethServer Community (English)',
+              href: 'https://community.nethserver.org/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Partner Community (Italian)',
+              href: 'https://partner.nethesis.it',
             },
           ],
         },
@@ -126,17 +132,29 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Announcements',
+              to: '/blog/',
             },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
+            {
+              label: 'NethServer documentations',
+              href: 'https://ns8.nethserver.org',
+            },
+            {
+              label: 'NethServer website',
+              href: 'https://www.nethserver.org',
+            },
+            {
+              label: 'Nethesis website',
+              href: 'https://www.nethesis.it',
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nethesis`,
     },
     prism: {
       theme: prismThemes.github,
