@@ -93,9 +93,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'faqSidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'FAQ',
+          label: 'Tutorial',
         },
         {to: '/blog', label: 'Announcements', position: 'left'},
         {
