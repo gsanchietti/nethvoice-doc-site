@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'NethVoice documentation',
+  tagline: 'NethVoice is a complete and flexible VoIP solution for NethServer',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -73,9 +73,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'NethVoice',
         src: 'img/logo.svg',
       },
       items: [
@@ -84,6 +84,12 @@ const config: Config = {
           sidebarId: 'administratorManualSidebar',
           position: 'left',
           label: 'Administrator manual',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'userManualSidebar',
+          position: 'left',
+          label: 'User manual',
         },
         {
           type: 'docSidebar',
