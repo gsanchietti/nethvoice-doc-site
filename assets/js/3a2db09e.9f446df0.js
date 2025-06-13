@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknethvoice_doc_site=self.webpackChunknethvoice_doc_site||[]).push([[8121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"welcome","permalink":"/blog/tags/welcome","count":1}]}')}}]);

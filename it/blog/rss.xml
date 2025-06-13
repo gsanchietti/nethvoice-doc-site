@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>NethVoice documentation Blog</title>
-        <link>https://your-docusaurus-site.example.com/it/blog</link>
+        <link>https://gsanchietti.github.io/nethvoice-doc-site/it/blog</link>
         <description>NethVoice documentation Blog</description>
         <lastBuildDate>Thu, 12 Jun 2025 13:29:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>it</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://your-docusaurus-site.example.com/it/blog/welcome</link>
-            <guid>https://your-docusaurus-site.example.com/it/blog/welcome</guid>
+            <link>https://gsanchietti.github.io/nethvoice-doc-site/it/blog/welcome</link>
+            <guid>https://gsanchietti.github.io/nethvoice-doc-site/it/blog/welcome</guid>
             <pubDate>Thu, 12 Jun 2025 13:29:04 GMT</pubDate>
             <description><![CDATA[Welcome]]></description>
             <content:encoded><![CDATA[<p>Welcome</p>
