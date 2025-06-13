@@ -1,6 +1,6 @@
 ---
 title: Phonebook sources
-sidebar_position: 7
+sidebar_position: 2
 ---
 
 The NethVoice phonebook is a centralized directory that stores and manages contact information for users and organizations. It enables seamless name and number resolution for incoming and outgoing calls, ensuring that caller details are consistently available across NethVoice CTI and NethVoice App. The phonebook can aggregate contacts from various sources, including external databases and CSV files, providing a unified and easily accessible address book for all users.
@@ -46,89 +46,33 @@ In the [Github repository](https://github.com/nethesis/ns8-nethvoice/tree/main/f
 
 The *lookup_dummy.php* script returns a fake result for any number dialed or incoming call, while the lookup_vte.php script utilizes an external API.
 
-```{eval-rst}
-.. list-table:: Fields of the Centralized Address Book
-   :widths: 10 10
-   :header-rows: 1
-
-   * - Field
-     - Description
-
-   * - owner_id
-     - Owner of the contact
-
-   * - type
-     - Source of origin
-
-   * - homeemail
-     - Home email address
-
-   * - workemail
-     - Work email address
-
-   * - homephone
-     - Home phone number
-
-   * - workphone
-     - Work phone number
-
-   * - cellphone
-     - Cell phone number
-
-   * - fax
-     - Fax number
-
-   * - title
-     - Job title
-
-   * - company
-     - Company
-
-   * - notes
-     - Notes
-
-   * - name
-     - First and last name
-
-   * - homestreet
-     - Home address
-
-   * - homepob
-     - Home PO Box
-
-   * - homecity
-     - Home city
-
-   * - homeprovince
-     - Home province
-
-   * - homepostalcode
-     - Home postal code
-
-   * - homecountry
-     - Home country/region
-
-   * - workstreet
-     - Work address
-
-   * - workpob
-     - Work PO Box
-
-   * - workcity
-     - Work city
-
-   * - workprovince
-     - Work province
-
-   * - workpostalcode
-     - Work postal code
-
-   * - workcountry
-     - Work country/region
-
-   * - url
-     - Website address
-```
+| Field           | Description             |
+|-----------------|------------------------|
+| owner_id        | Owner of the contact   |
+| type            | Source of origin       |
+| homeemail       | Home email address     |
+| workemail       | Work email address     |
+| homephone       | Home phone number      |
+| workphone       | Work phone number      |
+| cellphone       | Cell phone number      |
+| fax             | Fax number             |
+| title           | Job title              |
+| company         | Company                |
+| notes           | Notes                  |
+| name            | First and last name    |
+| homestreet      | Home address           |
+| homepob         | Home PO Box            |
+| homecity        | Home city              |
+| homeprovince    | Home province          |
+| homepostalcode  | Home postal code       |
+| homecountry     | Home country/region    |
+| workstreet      | Work address           |
+| workpob         | Work PO Box            |
+| workcity        | Work city              |
+| workprovince    | Work province          |
+| workpostalcode  | Work postal code       |
+| workcountry     | Work country/region    |
+| url             | Website address        |
 
 #### Settings
 
