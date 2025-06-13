@@ -1,11 +1,11 @@
 ---
 slug: first-blog-post
-title: First Blog Post
+title: Welcome
 authors: [slorber, yangshun]
 tags: [hola, docusaurus]
 ---
 
-Lorem ipsum dolor sit amet...
+Welcome
 
 <!-- truncate -->
 
