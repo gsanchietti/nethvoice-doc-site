@@ -214,11 +214,11 @@ During installation, ensure you complete:
 **Default Credentials**: Change default admin passwords immediately after installation. This is a security requirement, not optional.
 :::
 
-## Scaling and High Availability
+## Scaling
 
 After initial installation, NethServer 8 supports:
 
-- **Cluster Setup**: Add multiple nodes for high availability
+- **Cluster Setup**: Add multiple nodes for scalability
 - **Worker Nodes**: Distribute applications across cluster nodes
 - **Load Balancing**: Built-in load balancing for applications
 - **VPN**: Automatic VPN setup for secure inter-node communication

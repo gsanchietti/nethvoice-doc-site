@@ -13,7 +13,7 @@ The initial configuration wizard facilitates easy installation and setup of all 
 
 The first step in configuring NethVoice involves associating users with their telephone extensions.
 
-You can manage users (create, update, reset passwords, delete) by accessing the dedicated section through the button `Link to the Portal <user-management-portal-section>`.
+You can manage users (create, update, reset passwords, delete) by accessing the dedicated section through the button [Link to the Portal](./install/nethserver.md#user-domains).
 
 Enter the corresponding extensions for each user:
 
@@ -104,7 +104,7 @@ The use of encryption in SIP connections for devices is enabled by default.
 
 In any case, it is possible to choose on each individual phone whether encryption is used or not. In this regard, refer to `wizard-configurations`.
 
-Other settings can be changed in `Preferences <panel-preferences>` section:
+Other settings can be changed in the [Preferences](./provisioning/provisioning_parameters) section:
 
 - `Phone languages`
 - `Provisioning scheduling`

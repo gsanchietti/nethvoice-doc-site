@@ -93,9 +93,9 @@ If you plan to use a Let's Encrypt certificate as the default certificate, make 
 
 During the first configuration wizard, you will be prompted to provide the following information:
 
-- `NethVoice base host`: Insert a valid FQDN to access the application administration page.
+- `NethVoice base host`: Insert a valid FQDN to access the application administration page, this is where you will manage NethVoice settings.
 - `NethVoice CTI base host`: Insert a valid FQDN to access the NethVoice CTI web application.
-- `User Domain`: Choose one of the `user domain <user-domains-section>` already configured.
+- `User Domain`: Choose one of the [user domains](./nethserver.md#user-domains) already configured.
 - `Request Let's Encrypt certificate`: If enabled, a Let's Encrypt certificate will be requested for each of the two hosts.
 - `Reports Prefix`: Insert the international telephone prefix to be considered local in the reporting system.
 - `Reset NethVoice admin password to access user interface`: Insert a valid password for the NethVoice administrator user (optional, the default password is *Nethesis,1234*).
