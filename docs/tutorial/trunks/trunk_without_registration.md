@@ -1,5 +1,6 @@
 ---
 title: Trunk without registration
+sidebar_position: 1
 tags: 
   - proxy
   - nethvoice ns8
@@ -7,7 +8,7 @@ tags:
   - nethvoice support
 ---
 
-## Commands to configure a trunk without registration on the proxy
+# Trunk without registration
 
 **Note:** Replace `X` with the module number. The commands only work from the master node as `root`.
 

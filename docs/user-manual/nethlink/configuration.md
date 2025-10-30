@@ -3,32 +3,61 @@ title: Configuration
 sidebar_position: 2
 ---
 
-La configurazione di NethLink è semplice e richiede solo:
+# Configuration
 
-1. Inserire il dominio di NethVoice CTI
-2. Inserire le proprie credenziali utente
-3. Inserire la password
+NethLink configuration is simple and requires only:
 
-Una volta configurato, la Phone Island di NethVoice CTI verrà automaticamente eseguita in NethLink invece che nel browser.
+1. Enter the NethVoice CTI domain
+2. Enter your user credentials
+3. Enter your password
 
-### Configurazione audio
+Once configured, the Phone Island of NethVoice CTI will automatically run in NethLink instead of in the browser.
 
-Per garantire una qualità ottimale delle chiamate:
+## Audio Configuration
 
-1. Selezionare il dispositivo di input (microfono) desiderato
-2. Selezionare il dispositivo di output (altoparlanti/cuffie) desiderato
-3. Eseguire il test audio per verificare la configurazione
-4. Regolare i livelli del volume secondo necessità
+To ensure optimal call quality:
 
-### Configurazione delle scorciatoie da tastiera
+1. Select the desired input device (microphone)
+2. Select the desired output device (speakers/headphones)
+3. Run the audio test to verify the configuration
+4. Adjust volume levels as needed
 
-NethLink permette di personalizzare le scorciatoie da tastiera per le operazioni più comuni:
+## Keyboard Shortcut Configuration
 
-1. Accedere a **Profilo → Impostazioni → Scorciatoie**
-2. Selezionare l'operazione da configurare
-3. Premere la combinazione di tasti desiderata
-4. Salvare le impostazioni
+NethLink allows you to customize keyboard shortcuts for common operations:
 
-Al momento le scorciatoie disponibili sono:
+1. Go to **Profile → Settings → Shortcuts**
+2. Select the operation to configure
+3. Press the desired key combination
+4. Save the settings
 
-- Avvio chiamata
+Currently available shortcuts are:
+
+- Call initiation
+- Answer call
+- Reject call
+- End call
+- Mute/unmute
+- Hold/resume
+
+## Application Settings
+
+### General Settings
+
+- Auto-start with operating system
+- Show notifications
+- Enable system tray integration
+- Theme (light/dark mode)
+
+### Privacy Settings
+
+- Call history retention period
+- Automatic logout after inactivity
+- Password security settings
+
+### Advanced Settings
+
+- Proxy configuration
+- SSL certificate verification
+- Custom audio codecs
+- Debug logging

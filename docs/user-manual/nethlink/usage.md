@@ -3,46 +3,72 @@ title: Usage
 sidebar_position: 3
 ---
 
-## Utilizzo
+# Usage
 
-### Effettuare una chiamata
+## Making a Call
 
-Ci sono diversi modi per effettuare una chiamata:
+There are several ways to make a call:
 
-1. Selezionare il contatto dalla rubrica
-2. Cliccare sull'icona del telefono accanto al contatto
-3. Attendere la risposta
-4. Utilizzare i controlli durante la chiamata:
-     - Muto
-     - Attesa
-     - Trasferimento
-     - Termina chiamata
+1. Select the contact from the address book
+2. Click the phone icon next to the contact
+3. Wait for the answer
+4. Use the controls during the call:
+   - Mute
+   - Hold
+   - Transfer
+   - End call
 
-In alternativa è possibile:
+Alternatively, you can:
 
-- Digitare il numero nel campo di composizione e premere Invio
-- Utilizzare la scorciatoia da tastiera configurata
-- Selezionare un numero di telefono nel sistema operativo e utilizzare la scorciatoia
-- Utilizzare il menu contestuale nel campo di composizione per incollare un numero
+- Type the number in the dialing field and press Enter
+- Use the configured keyboard shortcut
+- Select a phone number in the operating system and use the shortcut
+- Use the context menu in the dialing field to paste a number
 
-### Ricevere una chiamata
+## Receiving a Call
 
-1. All'arrivo di una chiamata, apparirà una notifica
-2. Cliccare su **Rispondi** per accettare la chiamata
-3. Cliccare su **Rifiuta** per declinare la chiamata
-4. Utilizzare i controlli durante la chiamata
+1. When a call arrives, a notification will appear
+2. Click **Answer** to accept the call
+3. Click **Reject** to decline the call
+4. Use the controls during the call
 
-### Gestione rubrica
+## Address Book Management
 
-- Aggiungere nuovi contatti
-- Modificare contatti esistenti
-- Organizzare contatti in gruppi
-- Ricercare contatti
-- Importare/esportare contatti
+- Add new contacts
+- Modify existing contacts
+- Organize contacts in groups
+- Search for contacts
+- Import/export contacts
 
-### Notifiche
+## Call History
 
-NethLink utilizza il sistema di notifiche del sistema operativo per:
+- View complete call history
+- Filter calls by type (received, made, missed)
+- Quick dial from history
+- Clear history
 
-- Avvisare di chiamate in arrivo
-- Mostrare lo stato delle chiamate
+## Notifications
+
+NethLink uses the operating system notification system to:
+
+- Alert you to incoming calls
+- Show the status of calls
+- Confirm successful actions
+
+## Advanced Features
+
+### Keyboard Shortcuts
+
+Access quick calling and control features using customizable keyboard shortcuts from anywhere in the system.
+
+### Multi-Call Handling
+
+- Switch between active calls
+- Put calls on hold
+- Transfer calls between devices
+
+### Contact Search
+
+- Quick search in address book
+- Search by name, company, or phone number
+- Star favorite contacts for quick access

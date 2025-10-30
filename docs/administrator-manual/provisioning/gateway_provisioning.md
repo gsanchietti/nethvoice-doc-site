@@ -1,11 +1,13 @@
 ---
 title: Gateway provisioning
-sidebar_position: 6
+sidebar_position: 4
 ---
+
+# Gateway provisioning
 
 ## Supported Gateways
 
-See [supported gateways](supported-gateways) for a list of supported gateways and their firmware versions.
+See [supported gateways](supported_gateways) for a list of supported gateways and their firmware versions.
 
 ## Provisioning
 

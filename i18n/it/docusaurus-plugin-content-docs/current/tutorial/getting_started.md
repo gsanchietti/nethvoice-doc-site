@@ -1,43 +1,43 @@
 ---
-title: Guida introduttiva
+title: Per iniziare
 sidebar_position: 2
 ---
 
-# Guida introduttiva a NethVoice
+# Per iniziare
 
-Questa guida ti accompagnerà nei passaggi fondamentali per configurare NethVoice sul tuo sistema.
+Questo tutorial ti guiderà attraverso i passaggi fondamentali per configurare e iniziare a utilizzare NethVoice.
 
-## 1. Installa NethServer 8
+## Prerequisiti
 
-Inizia installando NethServer 8 sul tuo server.  
-- Scarica e segui le istruzioni di installazione dalla [guida ufficiale](https://docs.nethserver.org/projects/ns8/en/latest/install.html).
-- Dopo l’installazione, accedi all’interfaccia web su `https://<server_ip_or_fqdn>/cluster-admin/` utilizzando:
-  - **Nome utente:** `admin`
-  - **Password:** `Nethesis,1234`
-- Crea un cluster e assicurati che il server abbia un indirizzo IP statico e un FQDN valido.
+Prima di iniziare, assicurati di avere:
 
-## 2. Installa e configura NethVoice Proxy
+- Accesso amministratore al sistema NethVoice
+- Almeno un telefono SIP o client VoIP
+- Connessione di rete stabile
+- Uno o più trunk (linee esterne) se desideri le telefonate esterne
 
-NethVoice Proxy è necessario per abilitare l’accesso remoto sicuro ai servizi NethVoice.
-- Installa il modulo NethVoice Proxy dal Software Center.
-- Assegna un FQDN valido (es. `proxy.tuodominio.org`) e assicurati che il record DNS sia configurato.
-- Configura l’interfaccia di rete e l’IP pubblico secondo necessità.
-- È possibile installare un solo NethVoice Proxy per nodo.
-- Per i dettagli, consulta la [documentazione di NethVoice Proxy](https://raw.githubusercontent.com/NethServer/ns8-docs/refs/heads/main/nethvoice_proxy.rst).
+## Configurazione iniziale
 
-## 3. Installa il modulo NethVoice
+### Passaggio 1: Accedi al sistema
 
-Dopo aver configurato il proxy, puoi installare il modulo NethVoice:
-- Apri il **Software Center** dall’interfaccia web.
-- Cerca l’applicazione NethVoice e clicca su **Installa**.
-- Per maggiori informazioni, consulta la [documentazione del Software Center]https://docs.nethserver.org/projects/ns8/en/latest/software_center.html#).
+Accedi al pannello amministrativo di NethVoice usando le tue credenziali amministratore.
 
-## 4. Configura NethVoice
+### Passaggio 2: Aggiungi utenti
 
-Dopo l’installazione, configura la tua istanza NethVoice:
-- Segui la [guida di configurazione di NethVoice](https://docs.nethserver.org/projects/ns8/en/latest/nethvoice.html) per istruzioni dettagliate.
-- Completa la configurazione iniziale, aggiungi utenti e imposta l’ambiente telefonico secondo le tue esigenze.
+Vai a Amministrazione > Utenti e aggiungi gli utenti che utilizzeranno il sistema.
 
----
+### Passaggio 3: Configura i telefoni
 
-Per ogni passaggio, fai riferimento alla documentazione collegata per istruzioni dettagliate e complete.
+Aggiungi i tuoi telefoni SIP dal pannello Dispositivi. NethVoice supporterà automaticamente i modelli compatibili con il provisioning.
+
+### Passaggio 4: Configura i Trunk
+
+Se desideri le telefonate esterne, configura almeno un trunk nella sezione Trunk.
+
+## Passaggi successivi
+
+Una volta completata la configurazione iniziale, esplora le seguenti risorse:
+
+- [Manuale dell'amministratore](../administrator-manual/introduction.md) per una configurazione avanzata
+- [Manuale NethCTI](../user-manual/nethcti/index.md) per le funzioni di comunicazione
+- [Manuale NethLink](../user-manual/nethlink/index.md) per le applicazioni desktop

@@ -1,31 +1,42 @@
 ---
 title: NethLink
+sidebar_position: 2
 ---
 
+# NethLink
 
-NethLink è un'applicazione desktop basata su Electron che permette di gestire le chiamate VoIP direttamente dal computer.  
-Questa applicazione nasce per portare la Phone Island di NethVoice CTI fuori dal browser nel sistema operativo del PC dell'utente, eliminando la necessità di utilizzare il tab di NethVoice CTI per gestire le telefonate.
+NethLink is an Electron-based desktop application that enables you to manage VoIP calls directly from your computer.
+This application brings the Phone Island of NethVoice CTI out of the browser into your PC's operating system, eliminating the need to use the NethVoice CTI tab to manage calls.
 
-L'applicazione è disponibile per i seguenti sistemi operativi:
+The application is available for the following operating systems:
 
-- Windows
-- macOS
-- Linux (AppImage), non ufficialmente supportato
+- Windows 10/11 and later
+- macOS 10.13 and later
+- Linux (AppImage) - Not officially supported
 
-## Caratteristiche principali
+## Key Features
 
-- Gestione completa delle chiamate dal desktop
-- Integrazione con il sistema telefonico NethVoice
-- Supporto per audio bidirezionale
-- Indicatori di stato della chiamata
-- Gestione della rubrica
-- Supporto per più account
-- Notifiche di sistema integrate
-- Ricerca in rubrica
-- Gestione numeri brevi
-- Visualizzazione chiamate perse
-- Integrazione con la tray bar del sistema operativo
-- Possibilità di utilizzo contemporaneo con NethVoice CTI
-- Scorciatoie da tastiera personalizzabili
-- Supporto per il copia e incolla dei numeri di telefono
-- Integrazione con il sistema di notifiche del sistema operativo
+- Complete desktop call management
+- Integration with NethVoice telephone system
+- Bidirectional audio support
+- Call status indicators
+- Address book management
+- Multi-account support
+- Integrated system notifications
+- Address book search functionality
+- Speed dial management
+- Missed calls display
+- System tray integration
+- Concurrent use with NethVoice CTI
+- Customizable keyboard shortcuts
+- Phone number copy and paste support
+- Operating system notification system integration
+
+## Getting Started
+
+Refer to the following sections:
+
+- [Installation](./install.md) - How to install NethLink
+- [Configuration](./configuration.md) - How to configure the application
+- [Usage](./usage.md) - How to use NethLink
+- [Troubleshooting](./troubleshooting.md) - Solutions for common issues

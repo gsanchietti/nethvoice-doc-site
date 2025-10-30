@@ -3,22 +3,44 @@ title: Calls
 sidebar_position: 2
 ---
 
-Per poter chiamare puoi digitare il numero di telefono, oppure cercare il nome o numero del tuo contatto nella barra "Cerca o componi".
+# Calls
 
-![Chiamare](/img/nethcti//Chiamare.png)
+## Making a Call
 
-Durante la chiamata si aprirà la *Phone Island*:
+To make a call, you can either:
+1. Type the phone number directly
+2. Search for your contact by name or number using the "Search or dial" bar
 
-![Phone Island](/img/nethcti//Phone_Island.png)
+![Making a Call](/img/nethcti/Chiamare.png)
 
-La *Phone Island* è il nuovo strumento dedicato alla gestione della telefonata.
+## Phone Island
 
-Tramite la *Phone Island* è possibile:
-- Mettere in pausa la telefonata
-- Silenziare il microfono
-- Trasferire la chiamata: una volta cliccato digitare il nome o il numero del contatto a cui vuoi trasferire
-- Aprire il tastierino numerico
-- Parcheggiare la telefonata (soggetto a specifico permesso)
+When you make or receive a call, the **Phone Island** will appear:
 
-La *Phone Island* è uno strumento dinamico che puoi spostare, trascinandola, ovunque nello schermo.
+![Phone Island](/img/nethcti/Phone_Island.png)
+
+The **Phone Island** is the dedicated tool for managing your calls.
+
+### Phone Island Features
+
+Through the **Phone Island** you can:
+
+- **Pause the call**: Temporarily put the call on hold
+- **Mute microphone**: Silence your microphone during the call
+- **Transfer the call**: Click the transfer button and enter the name or number of the contact you want to transfer to
+- **Open numeric keypad**: Use the keypad to enter numbers during a call (useful for IVR systems)
+- **Park the call**: Park the call for later pickup (subject to specific permissions)
+
+### Phone Island Positioning
+
+The **Phone Island** is a dynamic tool that you can move by dragging it anywhere on your screen for optimal visibility and convenience.
+
+## Incoming Calls
+
+When you receive an incoming call, you will see:
+- Caller name or number
+- Option to accept or reject the call
+- Call timing information
+
+Click the accept button to answer the call and the Phone Island will appear.
 

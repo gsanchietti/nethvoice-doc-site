@@ -3,6 +3,10 @@ title: First configuration
 sidebar_position: 3
 ---
 
+# First configuration
+
+# First configuration
+
 The initial configuration wizard facilitates easy installation and setup of all NethVoice components.
 
 ## Extensions

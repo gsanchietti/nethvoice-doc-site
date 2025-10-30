@@ -1,4 +1,9 @@
-# Supported gateways
+---
+title: Supported Gateways
+sidebar_position: 5
+---
+
+# Supported Gateways
 
 We support the following gateway using automatic provisioning. 
 Before using any other gateway, please open a support ticket.
@@ -14,3 +19,4 @@ Before using any other gateway, please open a support ticket.
 - BRI Trinity Models
 - PRI Trinity Models
 - FXO Trinity Models
+

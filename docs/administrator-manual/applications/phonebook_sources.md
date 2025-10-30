@@ -3,6 +3,10 @@ title: Phonebook sources
 sidebar_position: 2
 ---
 
+# Phonebook sources
+
+# Phonebook sources
+
 The NethVoice phonebook is a centralized directory that stores and manages contact information for users and organizations. It enables seamless name and number resolution for incoming and outgoing calls, ensuring that caller details are consistently available across NethVoice CTI and NethVoice App. The phonebook can aggregate contacts from various sources, including external databases and CSV files, providing a unified and easily accessible address book for all users.
 
 #### Adding External Address Books

@@ -1,194 +1,233 @@
 ---
-title: Other functions
+title: Other features
 sidebar_position: 3
 ---
 
-TO BE SPLIT
+# Other Features
 
+## Presence and Main Device Management
 
-## Gestire la Presence ed il Dispositivo principale
+Click on your NethVoice CTI Avatar to manage your presence status and select your main telephone device.
 
-Cliccando sul tuo Avatar NethVoice CTI ti consente di gestire la tua Presence ed il tuo dispositivo telefonico principale.
+### Presence Status
 
-### Presence
+Communicate your telephone status to your colleagues to let them know if you are available or unavailable to receive calls:
 
-Comunica ai tuoi colleghi il tuo stato telefonico per far sapere se sei presente o se non puoi ricevere telefonate:
+![Presence](/img/nethcti/Presence.png)
 
-![Presence](/img/nethcti//Presence.png)
+Your status color will change accordingly:
+- **Available (Green)**: Ready to receive calls
+- **Busy (Red)**: Currently on a call or unavailable
+- **Away (Yellow)**: Away from your desk
+- **Do Not Disturb (Gray)**: Do not want to receive calls
 
-Il colore del tuo stato cambierà di conseguenza.
+### Main Device
 
-### Dispositivo principale
+If you have multiple phones available, you can select which one to use for making calls:
 
-Se hai a disposizione più telefoni puoi scegliere da qui quale utilizzare per telefonare:
+![Main Device](/img/nethcti/Dispositivo_Principale.png)
 
-![Dispositivo Principale](/img/nethcti//Dispositivo_Principale.png)
+This allows you to seamlessly switch between different devices.
 
-## Chiamata Rapida e Ultime Chiamate
+## Speed Dial and Recent Calls
 
-Puoi aggiungere contatti da chiamare rapidamente tramite il menù di chiamata rapida:
+### Speed Dial
 
-![Chiamata Rapida](/img/nethcti//Chiamata_Rapida.png)
+Add contacts to your speed dial menu for quick access:
 
-Oppure visualizzare le ultime chiamate fatte o ricevute:
+![Speed Dial](/img/nethcti/Chiamata_Rapida.png)
 
-![Ultime Chiamate](/img/nethcti//Ultime_Chiamate_Destra.png)
+Simply click on a speed dial entry to call that contact instantly.
 
-## Panello operatore
+### Recent Calls
 
-Ti permette di visualizzare in tempo reale lo stato dei tuoi colleghi:
+View your recent incoming and outgoing calls:
 
-![Pannello Operatore](/img/nethcti//Pannello_Operatore.png)
+![Recent Calls](/img/nethcti/Ultime_Chiamate_Destra.png)
 
-Da qui puoi chiamarli, controllarne la disponibilità, filtrare ed organizzarne la visualizzazione in pochi click.
+You can quickly redial or check call history from this list.
 
-## Code
+## Operator Panel
 
-Se utilizzi le *Code* da qui puoi controllarle:
+View the real-time status of your colleagues:
 
-![Code](/img/nethcti//Code.png)
+![Operator Panel](/img/nethcti/Pannello_Operatore.png)
 
-### Gestione delle code
+From here you can:
+- Call your colleagues
+- Check their availability
+- Filter and organize the display
+- See presence information
 
-Controlla le chiamate in arrivo oppure in gestione da parte dei colleghi:
+## Queues Management
 
-![Code](/img/nethcti//Code.png)
+If you use call queues, you can manage them from here:
 
-Con il bottone "Accedi\Esci" puoi entrare o uscire da una specifica coda.  
-Con il pulsante "Pausa" puoi temporaneamente evitare di ricevere telefonate.  
-Tramite un unico bottone puoi gestire tutte le code contemporaneamente:
+![Queues](/img/nethcti/Code.png)
 
-![Code accesso](/img/nethcti//Code_accesso.png)
+### Queue Operations
 
-### Chiamate
+Monitor incoming calls and calls being handled by colleagues:
 
-Verifica se hai perso qualche chiamata e richiama i tuoi clienti:
+![Queue Management](/img/nethcti/Code.png)
 
-![Code Chiamate](/img/nethcti//Code_Chiamate.png)
+**Queue Controls:**
+- **Join/Leave Queue**: Enter or exit a specific queue with the "Join/Leave" button
+- **Pause**: Temporarily avoid receiving calls with the "Pause" button
+- **Manage All Queues**: Use a single button to manage all queues simultaneously
 
-### Statistiche
+![Queue Access](/img/nethcti/Code_accesso.png)
 
-Controlla le tue statistiche telefoniche all'interno delle code:
+### Missed Calls
 
-![Code Statistiche](/img/nethcti//Code_Statistiche.png)
+Verify if you missed any calls and call back your clients:
 
-## Rubrica
+![Missed Calls](/img/nethcti/Code_Chiamate.png)
 
-Puoi visualizzare la rubrica di Nethvoice CTI:
+### Statistics
 
-![Rubrica Sinistra](/img/nethcti//Rubrica_Sinistra.png)
+Monitor your call statistics within queues:
 
-Oppure aggiungere nuovi contatti con la funzione "Crea Contatto" (soggetto a specifico permesso):
+![Queue Statistics](/img/nethcti/Code_Statistiche.png)
 
-![Crea Contatto](/img/nethcti//crea_contatto.png)
+## Address Book
 
-## Storico
+### Viewing Contacts
 
-Tramite comodi filtri puoi ricercare le chiamate del tuo interno, gruppo o dell'intero centralino telefonico (soggetto a specifico permesso):
+View your NethVoice CTI address book:
 
-![Storico Chiamate](/img/nethcti//Storico_Chiamate.png)
+![Address Book](/img/nethcti/Rubrica_Sinistra.png)
 
-## Gestore Code
+Search for contacts quickly and efficiently.
 
-Da qui puoi amministrare le code configurate sul centralino telefonico (soggetto a specifico permesso):
+### Creating Contacts
 
-![Gestore Code](/img/nethcti//Gestore_Code.png)
+Add new contacts using the "Create Contact" function (subject to specific permissions):
+
+![Create Contact](/img/nethcti/crea_contatto.png)
+
+You can add:
+- Contact name
+- Phone numbers
+- Email addresses
+- Organization
+- Notes
+
+## Call History
+
+Use convenient filters to search for calls from your extension, group, or entire phone system (subject to specific permissions):
+
+![Call History](/img/nethcti/Storico_Chiamate.png)
+
+**Available Filters:**
+- Date range
+- Call type (incoming/outgoing/missed)
+- Contact name
+- Duration
+- Call status
+
+## Queue Manager
+
+Administer configured queues on the phone system (subject to specific permissions):
+
+![Queue Manager](/img/nethcti/Gestore_Code.png)
 
 ### Dashboard
 
-Visualizza un riepilogo della situazione di tutte le code configurate sul sistema:
+View a summary of all configured queues on the system:
 
-![Gestore Code](/img/nethcti//Gestore_Code.png)
+![Queue Manager Dashboard](/img/nethcti/Gestore_Code.png)
 
-Puoi vedere da qui anche grafici e statistiche.
+See graphs and statistics for all queues.
 
-### Gestione code
+### Queue Management
 
-Per ciascuna coda puoi vedere il dettaglio delle chiamate gestite e governare il comportamento degli agenti:
+For each queue, view details of managed calls and control agent behavior:
 
-![Gestore Code Gestione Code](/img/nethcti//Gestore_Code_Gestione_Code.png)
+![Queue Management Detail](/img/nethcti/Gestore_Code_Gestione_Code.png)
 
-### Clienti non gestiti
+### Unhandled Clients
 
-Da qui puoi verificare velocemente se tutte le chiamate sono state risposte:
+Quickly verify if all calls have been answered:
 
-![Gestore Code Clienti non gestiti](/img/nethcti//Gestore_Code_Clienti_non_gestiti.png)
+![Unhandled Clients](/img/nethcti/Gestore_Code_Clienti_non_gestiti.png)
 
-### In tempo reale
+### Real-time Summary
 
-Riepilogo della situazione delle code in tempo reale:
+Real-time overview of queue situations:
 
-![Gestore Code In tempo Reale](/img/nethcti//Gestore_Code_In_tempo_Reale.png)
+![Real-time](/img/nethcti/Gestore_Code_In_tempo_Reale.png)
 
-Si possono filtrare le singole code o i singoli operatori per verificarne l'andamento della giornata lavorativa.
+Filter individual queues or operators to verify the day's performance.
 
-### Statistiche
+### Statistics
 
-Grafici di riepilogo della situazione delle code:
+Summary graphs of queue situations:
 
-![Gestore Code Statistiche](/img/nethcti//Gestore_Code_Statistiche.png)
+![Statistics](/img/nethcti/Gestore_Code_Statistiche.png)
 
 ### Monitor
 
-Visualizza su un monitor l'elenco delle chiamate in coda:
+Display the list of queued calls on a monitor:
 
-![Gestore Monitor](/img/nethcti//Gestore_Monitor.png)
+![Monitor](/img/nethcti/Gestore_Monitor.png)
 
-## Applicazioni
+## Applications
 
-![Applicazioni](/img/nethcti//Applicazioni.png)
+![Applications](/img/nethcti/Applicazioni.png)
 
-### Linee telefoniche e annunci
+### Phone Lines and Announcements
 
-Qui trovi e gestisci le linee telefoniche del centralino (soggetto a specifico permesso):
+Find and manage the phone lines of your PBX (subject to specific permissions):
 
-![Linee telefoniche e annunci gestione linee](/img/nethcti//Linee_telefoniche_e_annunci_gestione_linee.png)
+![Phone Lines](/img/nethcti/Linee_telefoniche_e_annunci_gestione_linee.png)
 
-#### Dettagli linea
+#### Line Details
 
-Clicca sulla tua linea telefonica per controllare le chiusure:
+Click on your phone line to check closures and settings:
 
-![Dettagli linea](/img/nethcti//Dettagli_linea.png)
+![Line Details](/img/nethcti/Dettagli_linea.png)
 
-Potrai da qui controllare:
-- Quando attivare la chiusura: attivare manualmente la chiusura, selezionare uno specifico giorno o un periodo di inizio e fine automatico
-- Far sentire un annuncio
-- Far sentire un annuncio e lasciare un messaggio in segreteria telefonica
-- Inoltrare la telefonata
+You can control:
+- **When to activate closure**: Manually activate, select specific days, or set automatic start/end periods
+- **Play announcement**: Have an announcement played
+- **Announcement + Voicemail**: Play announcement and leave voicemail option
+- **Forward call**: Forward calls to another number
 
-#### Annunci
+#### Announcements
 
-Tramite il menù Annunci puoi caricare o registrare un nuovo annuncio. Puoi anche riascoltare o eliminare gli annunci già presenti (soggetto a specifico permesso):
+Use the Announcements menu to upload or record new announcements. You can also listen to or delete existing announcements (subject to specific permissions):
 
-![Linee telefoniche e annunci annunci](/img/nethcti//Linee_telefoniche_e_annunci_annunci.png)
+![Announcements](/img/nethcti/Linee_telefoniche_e_annunci_annunci.png)
 
-### Sorgenti video
+### Video Sources
 
-Ci stiamo lavorando. Da qui potrai vedere e controllare i tuoi videocitofoni (soggetto a specifico permesso).
+Advanced video intercom management. Manage and control your video intercoms (subject to specific permissions).
 
 ### PBX Report
 
-La [Reportistica avanzata](https://docs.nethvoice.it/it/latest/pbxreport_manual.html) del centralino telefonico (soggetto a specifico permesso).
+Access [Advanced Reporting](https://docs.nethvoice.it/it/latest/pbxreport_manual.html) for your phone system (subject to specific permissions).
 
-## Impostazioni
+## Settings
 
-Puoi personalizzare il tuo *NethVoice CTI* accedendo alle Impostazioni:
+Customize your NethVoice CTI by accessing Settings:
 
-![Impostazioni](/img/nethcti//Impostazioni.png)
+![Settings](/img/nethcti/Impostazioni.png)
 
-Da qui puoi vedere:
-- Dispositivi: ti consente di controllare i tuoi telefoni ed il loro stato
-- App mobile: genera il codice QR per collegare il tuo [smartphone](https://docs.nethvoice.it/it/latest/app_manual.html) (soggetto a specifico permesso)
-- Scheda cliente: controlla come si comporta la scheda cliente (soggetto a specifico permesso)
-- Code: decidi come automatizzare il tuo accesso alle code (soggetto a specifico permesso)
-- Immagine profilo: modifica il tuo avatar
-- Tema: scegli il tema chiaro o scuro in base alle tue preferenze
-- Integrazioni: utile per integrare la tua *Phone Island* con strumenti esterni
-- Cache: svuotare la cache del tuo browser può aiutare a risolvere alcuni problemi di caricamento della pagina
+### Available Settings
 
-## Browser Supportati
+- **Devices**: Control your phones and their status
+- **Mobile App**: Generate QR code to connect your [smartphone](https://docs.nethvoice.it/it/latest/app_manual.html) (subject to specific permissions)
+- **Customer Card**: Configure how the customer card behaves (subject to specific permissions)
+- **Queues**: Decide how to automate your queue access (subject to specific permissions)
+- **Profile Picture**: Modify your avatar
+- **Theme**: Choose light or dark theme based on your preferences
+- **Integrations**: Integrate your Phone Island with external tools
+- **Cache**: Clearing browser cache can help resolve some page loading issues
 
-I Browser attualmente supportati sono:
-- Google Chrome - Versione 121.0.6167.189
-- Mozilla Firefox - Versione 123.0
-- Microsoft Edge - Versione 122.0.2365.59
+## Supported Browsers
+
+Currently supported browsers are:
+- Google Chrome - Version 121.0.6167.189 and later
+- Mozilla Firefox - Version 123.0 and later
+- Microsoft Edge - Version 122.0.2365.59 and later

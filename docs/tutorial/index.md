@@ -1,3 +1,8 @@
+---
+title: Tutorials
+sidebar_position: 2
+---
+
 # Tutorial
 
 Welcome to the tutorials section! Here you'll find step-by-step guides and practical examples to help you get started and make the most of the platform. Whether you're a beginner or looking to deepen your knowledge, these tutorials are designed to support your learning journey.

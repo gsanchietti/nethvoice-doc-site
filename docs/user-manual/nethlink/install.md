@@ -3,14 +3,42 @@ title: Installation
 sidebar_position: 1
 ---
 
-## Installazione
+# Installation
 
-NethLink è disponibile come applicazione desktop indipendente. Per installarlo:
+NethLink is available as a standalone desktop application. To install it:
 
-1. Accedere a NethVoice CTI
-2. Navigare alla sezione **Impostazioni → Dispositivi**
-3. Effettuare il download dell'applicazione nella versione appropriata per il proprio sistema operativo
-4. Installare l'applicazione seguendo le istruzioni specifiche del sistema operativo
+1. Access NethVoice CTI
+2. Navigate to the **Settings → Devices** section
+3. Download the application in the version appropriate for your operating system
+4. Install the application following the specific instructions for your operating system
 
-NethLink è disponibile per il download dal sito ufficiale: [nethserver.github.io/nethlink](https://nethserver.github.io/nethlink/)
+NethLink is available for download from the official website: [nethserver.github.io/nethlink](https://nethserver.github.io/nethlink/)
+
+## System Requirements
+
+- **Windows**: Windows 10 or later
+- **macOS**: macOS 10.13 or later
+- **Linux**: Ubuntu 18.04 or later (AppImage)
+
+## Installation Steps by Operating System
+
+### Windows
+
+1. Download the `.exe` installer
+2. Double-click the installer
+3. Follow the installation wizard
+4. Launch NethLink from the Start menu
+
+### macOS
+
+1. Download the `.dmg` file
+2. Open the `.dmg` file
+3. Drag NethLink to the Applications folder
+4. Launch from Applications folder
+
+### Linux
+
+1. Download the `.AppImage` file
+2. Make it executable: `chmod +x NethLink-*.AppImage`
+3. Run the application or integrate it into your application menu
 

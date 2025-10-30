@@ -8,6 +8,11 @@ hello:
   permalink: /hello
   description: Hello tag description
 
+welcome:
+  label: Welcome
+  permalink: /welcome
+  description: Welcome announcements and blog posts
+
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus

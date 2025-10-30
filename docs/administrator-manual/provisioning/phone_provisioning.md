@@ -1,6 +1,6 @@
 ---
 title: Phone provisioning
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Phone provisioning
@@ -14,7 +14,7 @@ Actions to be performed in NethVoice:
 
 ## Supported phones
 
-See [supported phones](supported-phones) for a list of supported phones and their firmware versions.
+See [supported phones](supported_phones) for a list of supported phones and their firmware versions.
 
 
 ## Identification of Phones

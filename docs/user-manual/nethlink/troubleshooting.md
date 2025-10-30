@@ -3,24 +3,54 @@ title: Troubleshooting
 sidebar_position: 4
 ---
 
-## Risoluzione problemi
+# Troubleshooting
 
-### Problemi audio
+## Audio Issues
 
-- Verificare che i dispositivi audio siano correttamente collegati
-- Controllare le impostazioni del browser per i permessi audio
-- Eseguire il test audio nella sezione configurazione
-- Verificare che non ci siano altre applicazioni che utilizzano i dispositivi audio
+- Verify that audio devices are properly connected
+- Check browser audio permission settings
+- Run the audio test in the configuration section
+- Verify that no other applications are using the audio devices
+- Test with different microphone/speaker combinations
+- Update audio drivers to the latest version
 
-### Problemi di connessione
+## Connection Issues
 
-- Verificare la connessione internet e la risoluzione DNS
-- Controllare le credenziali di accesso
-- Verificare che il centralino sia raggiungibile
+- Verify internet connection and DNS resolution
+- Check your login credentials
+- Verify that the PBX is reachable
+- Check firewall settings to ensure NethLink can communicate through required ports
+- Verify the correct server address is configured
+- Try connecting from a different network
 
-## Note importanti
+## Call Quality Issues
 
-- NethLink può essere utilizzato contemporaneamente a NethVoice CTI
-- Le chiamate in arrivo verranno ricevute solo sul dispositivo impostato come principale
-- NethLink utilizza le notifiche di sistema per gli avvisi (es. chiamata in arrivo)
-- L'applicazione rimane sempre accessibile dalla tray bar del sistema operativo
+- Reduce background noise using the noise suppression feature
+- Check network bandwidth availability
+- Use wired connection instead of wireless if possible
+- Move closer to the wireless router
+- Close other applications consuming network bandwidth
+
+## Application Issues
+
+- Clear application cache in Settings
+- Reinstall the application
+- Check for available updates
+- Restart the application
+- Restart your computer if issues persist
+
+## Important Notes
+
+- NethLink can be used concurrently with NethVoice CTI
+- Incoming calls will only be received on the device set as primary
+- NethLink uses system notifications for alerts (e.g., incoming call)
+- The application remains always accessible from the operating system's system tray
+
+## Getting Help
+
+If you encounter issues not covered here:
+
+1. Check the application logs: `Help → View Logs`
+2. Enable debug mode in Settings for detailed logging
+3. Contact your system administrator
+4. Visit the [NethServer Community](https://community.nethserver.org/) for support

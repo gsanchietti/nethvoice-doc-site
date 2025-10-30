@@ -1,7 +1,9 @@
 ---
 title: VoIP Proxy
+sidebar_position: 6
 ---
 
+# VoIP Proxy
 
 NethVoice Proxy module is split into two main parts:
 

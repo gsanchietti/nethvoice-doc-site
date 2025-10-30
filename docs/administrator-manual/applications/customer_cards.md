@@ -3,6 +3,10 @@ title: Customer cards
 sidebar_position: 1
 ---
 
+# Customer cards
+
+# Customer cards
+
 The *customer cards* section enables the grouping of information from external databases to the PBX and its display during calls. For example, when receiving a call from a specific customer, retrieve information from the database related to their invoices or any outstanding payments and evaluate whether to provide assistance or not.
 To create a new customer card, follow these steps:
 
