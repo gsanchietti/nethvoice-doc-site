@@ -1,6 +1,6 @@
 ---
-title: NethHotel
-sidebar_position: 12
+title: NethHotel Configuration & Management
+sidebar_position: 1
 ---
 
 # NethHotel
@@ -8,17 +8,6 @@ sidebar_position: 12
 NethHotel is a specialized module of NethVoice designed for the management of extensions properly configured as hotel rooms. It provides comprehensive features for managing guest communications, billing, and property management system integration.
 
 By default, access to NethHotel is granted to the admin user.
-
-## Main Features
-
-- **Room Check-in/Check-out**: Manage guest room activation and deactivation
-- **Wake-up Call**: Scheduled wake-up call service for guests
-- **Group Wake-up Call**: Schedule wake-up calls for multiple rooms simultaneously
-- **Call Reports**: Detailed call history and billing reports
-- **Customizable Rates**: Define different rates for various call types
-- **Speed Dial Numbers**: Quick access to reception and other service extensions
-- **Call History**: Track all calls made from rooms with filtering options
-- **Enable/Disable Calls Between Rooms**: Control inter-room calling policies
 
 ## Configuration
 
@@ -243,4 +232,4 @@ Review all calls made from rooms using the History section:
 
 ## FIAS Integration
 
-NethHotel can be connected to a hotel Property Management System (PMS) for automated operations. See [FIAS Integration](./fias_integration.md) for complete details.
+NethHotel can be connected to a hotel Property Management System (PMS) for automated operations. See [FIAS Integration](./fias_integration) for complete details.

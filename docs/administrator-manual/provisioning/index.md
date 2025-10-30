@@ -73,6 +73,16 @@ Understand all available provisioning parameters organized by functional categor
 - Firmware Management
 - Best Practices for Provisioning
 
+### [Click to Call](click_to_call)
+Enable users to initiate calls by clicking on phone numbers. This guide covers three implementation methods: Web Phone (browser-based), NethLink (desktop client), and Physical Phones (provisioned desk phones). Learn setup requirements, configuration steps, and troubleshooting for each scenario.
+
+**Coverage:**
+- Web Phone Click-to-Call (NethVoice CTI)
+- NethLink Desktop Integration
+- Physical Phone Configuration
+- Network Requirements and Troubleshooting
+- Best Practices for Users and Administrators
+
 ## Provisioning Workflow
 
 1. **Register Device MAC Address**: Enter the phone or gateway MAC address into NethVoice

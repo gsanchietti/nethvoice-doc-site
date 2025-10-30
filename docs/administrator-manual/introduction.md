@@ -1,50 +1,148 @@
 ---
 title: Introduction
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# NethVoice
+# NethVoice Administrator Manual
 
-NethVoice is a comprehensive communication system that integrates voice, video, and mobile capabilities.
-The NethVoice module is divided into seven main parts:
+## What is NethVoice?
 
-- [FreePBX](https://www.freepbx.org/): A web-based open-source graphical user interface (GUI) that manages [Asterisk](https://www.asterisk.org), a voice over IP and telephony server.
-- [NethVoice CTI Server](https://github.com/nethesis/nethcti-server): A daemon that provides a set of APIs to perform common switchboard operations and a WebSocket streaming channel to listen for events.
-- [NethVoice CTI Client](https://github.com/nethesis/nethcti): A web application to manage the telephone switchboard via communication with the NethVoice CTI Server.
-- [NethVoice Report](https://github.com/nethesis/nethvoice-report): An [Asterisk](https://www.asterisk.org) CDR and queues reporting system.
-- [Janus](https://janus.conf.meetecho.com/): A WebRTC server.
-- [MariaDB](https://mariadb.org/): A popular open-source relational database.
-- [Tancredi](https://nethesis.github.io/tancredi): A phone provisioning engine ideal for internet deployments.
+NethVoice is a comprehensive, unified communications platform built on open-source technologies. It integrates voice, video, and mobile capabilities into a single, powerful PBX system that organizations of any size can deploy and manage.
 
-NethVoice offers a comprehensive set of features for unified communications and PBX management, including:
+Unlike traditional proprietary PBX systems, NethVoice combines the flexibility of FreePBX/Asterisk with modern web-based interfaces, WebRTC technology, and advanced provisioning capabilities to deliver enterprise-grade communications.
 
-- **Integration with FreePBX and Asterisk**: Web-based GUI for managing telephony services.
-- **CTI Server and Client**: APIs and web applications for switchboard operations and user management.
-- **Reporting**: Call Detail Records (CDR) and queue reporting system.
-- **WebRTC Support**: Integration with Janus for video and web communications.
-- **Database Integration**: Uses MariaDB for data storage.
-- **Phone Provisioning**: Automated provisioning engine (Tancredi) for supported phone models.
-- **Multi-instance Support**: Install multiple NethVoice instances on the same node.
-- **Proxy and User Domain Management**: Requires configuration of proxy and user domains.
-- **Virtual Host Configuration**: Dedicated FQDNs for admin and CTI web applications.
-- **Let's Encrypt Integration**: Automated SSL certificate management.
-- **User and Extension Management**: Associate users with extensions, manage users and passwords.
-- **Trunk Management**: Configure physical gateways and VoIP trunks (SIP, PJSIP).
-- **Inbound/Outbound Routing**: Visual call flow editor and customizable route priorities.
-- **Device Management**: Provision and manage phones, set admin/user passwords, encryption, and preferences.
-- **Model and Custom Device Support**: Manage phone models, create custom models, and configure device-specific settings.
-- **Group and Profile Management**: Create user groups and permission profiles with granular feature access.
-- **Permissions System**: Fine-grained control over telephony features, address book, CDR, customer cards, presence, queues, and operator stations.
-- **Device Association**: Link up to 9 devices per user (web phone, mobile app, physical phones).
-- **Provisioning Methods**: Supports RPS, DHCP, and manual provisioning URLs.
-- **Firmware Management**: Upload and distribute firmware updates to phones.
-- **Supported Phones and Gateways**: Compatibility with major brands (NethPhone, Fanvil, Yealink, Snom, Gigaset, Grandstream, Patton).
-- **Provisioning Parameters**: Configure soft keys, line keys, expansion keys, screen/ringtone, preferences, LDAP phonebook, and network settings.
-- **Click-to-Call**: Initiate calls from web or desktop clients, with NethLink integration.
-- **Gateway Provisioning**: Automated and manual configuration for supported gateways.
-- **Dashboard**: Overview of users, devices, trunks, and their statuses.
-- **Applications**: Create and manage customer cards, address book sources, and parameterized URLs.
-- **External Address Book Integration**: Import contacts from MySQL, CSV, or custom scripts.
-- **Parameterized URLs**: Trigger custom URLs on call events with dynamic parameters.
+:::info
+This documentation covers the complete installation, configuration, and management of NethVoice on NethServer 8. Whether you're deploying your first system or managing multiple instances, you'll find comprehensive guides for every aspect of NethVoice.
+:::
 
-You can install multiple NethVoice instances on the same node from the `software_center-section`, but the module requires the `NethVoice proxy <nethvoice_proxy-section>` to be already configured and running.
+## Quick Navigation
+
+Get started quickly by jumping to the most important sections:
+
+- **[Installation Guide](./install/)** - Complete setup instructions from NethServer prerequisites to NethVoice deployment
+- **[Phone Provisioning](./provisioning/)** - Automated phone device management and provisioning
+- **[User Management & Administration](../user-manual/)** - CTI, extensions, and user administration
+- **[Administrator Resources](#core-components)** - System configuration and advanced topics
+
+## Core Components
+
+NethVoice is built on seven main open-source components:
+
+| Component | Purpose | Link |
+|-----------|---------|------|
+| **FreePBX** | Web-based GUI for Asterisk management and call routing | [freepbx.org](https://www.freepbx.org/) |
+| **Asterisk** | VoIP server and core telecommunications engine | [asterisk.org](https://www.asterisk.org) |
+| **NethVoice CTI Server** | APIs and WebSocket events for switchboard operations | [GitHub](https://github.com/nethesis/nethcti-server) |
+| **NethVoice CTI Client** | Web application for call management and operator stations | [GitHub](https://github.com/nethesis/nethcti) |
+| **NethVoice Report** | CDR and queue analytics and reporting | [GitHub](https://github.com/nethesis/nethvoice-report) |
+| **Janus** | WebRTC gateway for video and web communications | [janus.conf.meetecho.com](https://janus.conf.meetecho.com/) |
+| **Tancredi** | Intelligent phone provisioning engine | [GitHub](https://nethesis.github.io/tancredi) |
+
+Additional services include **MariaDB** for data storage and **Let's Encrypt** for SSL certificate automation.
+
+## Key Features Overview
+
+### Communication & Routing
+
+- **FreePBX & Asterisk Integration**: Web-based GUI for managing complete telephony services
+- **Inbound/Outbound Routing**: Visual call flow editor with customizable route priorities
+- **Trunk Management**: Configure physical gateways and VoIP trunks (SIP, PJSIP)
+- **User and Extension Management**: Associate users with extensions with granular control
+- **Click-to-Call**: Initiate calls from web or desktop clients with NethLink integration
+
+### Device Management & Provisioning
+
+- **Automated Phone Provisioning**: Tancredi provisioning engine for supported phone models
+- **Supported Devices**: Compatibility with NethPhone, Fanvil, Yealink, Snom, Gigaset, Grandstream, Patton and more
+- **Multiple Provisioning Methods**: RPS, DHCP, and manual provisioning URLs
+- **Device Association**: Link up to 9 devices per user (web phone, mobile app, physical phones)
+- **Firmware Management**: Upload and distribute firmware updates to phones
+- **Gateway Provisioning**: Automated and manual configuration for supported gateways
+- **Provisioning Parameters**: Configure soft keys, line keys, expansion keys, screen/ringtone settings, LDAP phonebook
+
+### User Management & Permissions
+
+- **Group and Profile Management**: Create user groups with granular permission profiles
+- **Permissions System**: Fine-grained control over telephony features, address book, CDR, customer cards, presence, queues
+- **Operator Stations**: Configure dedicated switchboard operator environments
+- **User Domains**: Support for multiple user domains in a single system
+
+### Communication Tools & Interfaces
+
+- **CTI Server and Client**: APIs and web applications for switchboard operations
+- **WebRTC Support**: Integration with Janus for video and web communications
+- **Dashboard**: Real-time overview of users, devices, trunks, and system status
+- **Reporting System**: Call Detail Records (CDR) and queue analytics
+
+### Advanced Features
+
+- **Multi-instance Support**: Install multiple NethVoice instances on the same NethServer node
+- **Applications Framework**: Create and manage customer cards, address book sources, and parameterized URLs
+- **External Address Book Integration**: Import contacts from MySQL, CSV, or custom scripts
+- **Parameterized URLs**: Trigger custom URLs on call events with dynamic parameters
+- **Let's Encrypt Integration**: Automated SSL certificate management
+
+## Getting Started
+
+### Prerequisites
+
+Before deploying NethVoice, ensure you have:
+
+- ✅ **NethServer 8**: Fully installed and configured (see [Installation Guide](./install/))
+- ✅ **User Domain**: Created for users and authentication (see [User Domains in NethServer Installation](./install/nethserver.md#user-domains))
+- ✅ **NethVoice Proxy**: Installed and configured with proper FQDN and DNS records (required for any NethVoice deployment)
+- ✅ **Network Requirements**: Static IP, DNS configured, internet connectivity
+- ✅ **System Resources**: Minimum 2 vCPU, 2GB RAM, 40GB storage per instance
+
+### Deployment Steps
+
+1. **[Review System Requirements](./install/#system-requirements)** - Ensure your infrastructure meets requirements
+2. **[Install NethServer 8](./install/nethserver/)** - Deploy the base infrastructure platform
+3. **[Create User Domain](./install/nethserver.md#user-domains)** - Set up LDAP for users and authentication
+4. **[Install & Configure NethVoice Proxy](./nethvoice_proxy/)** - Deploy the external VoIP gateway (REQUIRED before NethVoice)
+5. **[Deploy NethVoice](./install/nethvoice_install/)** - Install NethVoice module(s) on top of the proxy
+6. **Configure Your System**:
+   - [Provision Phones](./provisioning/) - Deploy and configure telephone devices
+   - [Manage Extensions](../user-manual/nethcti/) - Create extensions and assign to users
+7. **[Advanced Configuration](./administrator-manual/)** - Configure trunks, gateways, routing, and advanced features
+
+## Key Documentation Sections
+
+| Section | Purpose | Learn About |
+|---------|---------|------------|
+| **[Installation](./install/)** | System setup and deployment | NethServer, NethVoice installation, prerequisites |
+| **[Provisioning](./provisioning/)** | Phone device management | Supported devices, provisioning methods, configuration |
+| **[Administrator Manual](./administrator-manual/)** | System administration | Users, extensions, trunks, gateways, routing |
+| **[User Manual](../user-manual/)** | End-user features | CTI client, NethCTI, NethLink, calling features |
+
+:::tip Multi-Instance Deployments
+You can install multiple NethVoice instances on the same NethServer 8 node from the Software Center. Each instance requires separate configuration and runs independently. This is useful for multi-tenant deployments or separate business units.
+:::
+
+:::warning Prerequisites
+The NethVoice module requires that the **NethVoice proxy** be already installed, configured, and running on the system. 
+
+**Why?** NethVoice Proxy:
+- Manages all external VoIP traffic from the internet
+- Handles SIP/RTP traffic routing and delegation
+- Enables external access even with a single NethVoice instance
+- Routes traffic between multiple NethVoice installations on the same node
+
+If you haven't set up the proxy yet, refer to the [NethVoice Proxy documentation](./nethvoice_proxy/) before installing NethVoice.
+:::
+
+## Support & Additional Resources
+
+- **Official Documentation**: Full technical reference and advanced configuration guides
+- **Community Support**: Join the NethVoice community for questions and discussions
+- **Professional Services**: Reach out to Nethesis for enterprise deployments and support
+- **Provisioning Guide**: Detailed information on supported phones and gateways in the [Provisioning section](./provisioning/)
+
+## Documentation Structure
+
+This manual is organized as follows:
+
+- **Getting Started**: Installation and initial configuration
+- **Phone Provisioning**: Device management, supported models, and configuration
+- **Advanced Administration**: Trunks, gateways, routing, applications, and system tuning
+- **User Manual**: End-user documentation for CTI clients and communication tools
