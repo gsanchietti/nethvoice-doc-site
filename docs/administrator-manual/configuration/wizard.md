@@ -23,7 +23,7 @@ VoIP (Voice over Internet Protocol) extensions are virtual phone numbers that le
 During the initial setup, assign one extension to each user (we recommend starting from 200). Enter the extension number in the field and click Add to link it to the user.
 
 This will list all users available in the user domain associated with the NethVoice instance.
-You can manage users (create, update, reset passwords, delete) by accessing the dedicated section through the button **[Link to the Portal](./install/nethserver.md#user-domains)**.
+You can manage users (create, update, reset passwords, delete) by accessing the dedicated section through the button **Link to the Portal**, which opens the User Domain Portal in a new tab.
 
 Enter the corresponding extension for each user:
 

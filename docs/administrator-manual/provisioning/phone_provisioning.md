@@ -94,6 +94,16 @@ Refer to section `provisioning-support-section` for further information on manuf
 
 If you want to modify or customize the settings of phones configured via provisioning, access the web administration interface of NethVoice, modifying the settings at the *Default*, *Model*, or *individual phone* level.
 
+### Phone Configuration Priority
+
+Phone configuration follows a hierarchical structure where settings can be defined at three levels:
+
+1. **Phone Level** (Highest Priority) - Individual phone settings
+2. **Model Level** (Medium Priority) - Settings applied to all phones of a specific model
+3. **Default Level** (Lowest Priority) - Global default settings for all phones
+
+When a parameter is left empty or set to `-` (minus sign) at a higher priority level, the phone will inherit the value from the next lower priority level. This hierarchy allows you to set broad defaults and then customize specific models or individual phones as needed.
+
 The editable parameters include:
 
 - Language
