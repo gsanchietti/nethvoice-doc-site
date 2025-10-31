@@ -1,24 +1,14 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
 welcome:
   label: Welcome
   permalink: /welcome
   description: Welcome announcements and blog posts
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+documentation:
+  label: Documentation
+  permalink: /documentation
+  description: Documentation updates and improvements
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+features:
+  label: Features
+  permalink: /features
+  description: New features and functionality announcements
