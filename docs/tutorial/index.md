@@ -1,6 +1,6 @@
 ---
-title: Tutorials
-sidebar_position: 2
+title: Tutorial
+sidebar_position: 1
 ---
 
 # Tutorial

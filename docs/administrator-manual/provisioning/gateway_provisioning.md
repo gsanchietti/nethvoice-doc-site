@@ -11,13 +11,11 @@ See [supported gateways](supported_gateways) for a list of supported gateways an
 
 ## Provisioning
 
-Gateway configuration is carried out in the Wizard.
+Gateway configuration is performed using the Wizard.
 
-Gateway provisioning adheres to the same guidelines as provisioning for phones, with one key distinction: unlike phones, NethVoice establishes a direct connection to the gateway via telnet to upload the configuration, eliminating the need for the gateway to fetch it.
+Provisioning follows the same general rules as phone provisioning, with one important difference: NethVoice uploads the configuration to the gateway over a direct telnet connection, so the gateway does not need to fetch its configuration.
 
-Gateway configuration is performed with the gateway online; by default, gateways initiate in DHCP mode.
-
-However, by selecting `Add Gateway`, it is feasible to generate a configuration for a gateway not yet connected and subsequently configure it by uploading the file through the gateway's web interface.
+Gateways must be online to receive an automatic upload; by default they boot in `DHCP` mode. However, you can also prepare a configuration file in advance for a gateway that is not yet connected by using **Add Gateway**. The generated file can then be uploaded manually via the gateway’s web interface when the device is available.
 
 ### Configuring Gateways
 

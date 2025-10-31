@@ -3,11 +3,6 @@ title: Parameterized URLs
 sidebar_position: 3
 ---
 
-# Parameterized URLs
-
-# Parameterized URLs
-
-### Parameterized URLs
 
 Allows the end user to invoke a parameterized URL upon receiving a call. The URL will be parameterized with caller data and can be "opened" in one of the following four scenarios:
 

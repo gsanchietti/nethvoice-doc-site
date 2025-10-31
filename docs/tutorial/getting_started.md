@@ -6,6 +6,10 @@ sidebar_position: 2
 
 # Getting Started with NethVoice
 
+NethVoice is a telephony and unified communications platform that provides PBX features for small and medium businesses.  
+It offers call routing, voicemail, conferencing, and user management through an intuitive web interface.  
+Designed to run on [NethServer](https://www.nethserver.org/), NethVoice supports scalable deployments and secure remote access via the NethVoice Proxy.
+
 This guide will walk you through the basic steps to set up NethVoice on your system.
 
 ## 1. Install NethServer 8
