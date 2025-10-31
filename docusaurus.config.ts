@@ -24,10 +24,16 @@ const config: Config = {
   ],
 
   // Set the production url of your site here
-  url: 'https://nethserver.github.io',
+  // Production: https://docs.nethvoice.com with empty baseUrl
+  // Development: GitHub pages deployment
+  url: process.env.NODE_ENV === 'production' 
+    ? 'https://docs.nethvoice.com' 
+    : 'https://nethserver.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/nethvoice-docs/',
+  baseUrl: process.env.NODE_ENV === 'production' 
+    ? '/' 
+    : '/nethvoice-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
