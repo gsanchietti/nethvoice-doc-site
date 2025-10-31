@@ -110,7 +110,7 @@ Follow the [NethVoice Installation guide](nethvoice_install) to:
 | RAM | 2GB |
 | Storage | 40GB SSD |
 | Network | Static IP address |
-| OS | Rocky 9, AlmaLinux 9, CentOS Stream 9, Debian 12 |
+| OS | **Rocky Linux 9** (subscription supported) - AlmaLinux 9, CentOS Stream 9, Debian 12 (community supported) |
 | Browser | Firefox, Chrome, or Chromium (current version) |
 
 ### Installation Methods

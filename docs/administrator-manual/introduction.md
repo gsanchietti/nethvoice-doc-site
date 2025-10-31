@@ -55,7 +55,7 @@ Additional services include **MariaDB** for data storage and **Let's Encrypt** f
 - **Automated Phone Provisioning**: Tancredi provisioning engine for supported phone models
 - **Supported Devices**: Compatibility with NethPhone, Fanvil, Yealink, Snom, Gigaset, Grandstream, Patton and more
 - **Multiple Provisioning Methods**: RPS, DHCP, and manual provisioning URLs
-- **Device Association**: Link up to 9 devices per user (web phone, mobile app, physical phones)
+- **Device Association**: Link up multiple devices per user (web phone, mobile app, physical phones)
 - **Firmware Management**: Upload and distribute firmware updates to phones
 - **Gateway Provisioning**: Automated and manual configuration for supported gateways
 - **Provisioning Parameters**: Configure soft keys, line keys, expansion keys, screen/ringtone settings, LDAP phonebook
@@ -65,7 +65,7 @@ Additional services include **MariaDB** for data storage and **Let's Encrypt** f
 - **Group and Profile Management**: Create user groups with granular permission profiles
 - **Permissions System**: Fine-grained control over telephony features, address book, CDR, customer cards, presence, queues
 - **Operator Stations**: Configure dedicated switchboard operator environments
-- **User Domains**: Support for multiple user domains in a single system
+- **User Domains**: Support for LDAP or Active Directory integration for centralized user management
 
 ### Communication Tools & Interfaces
 
@@ -88,15 +88,15 @@ Additional services include **MariaDB** for data storage and **Let's Encrypt** f
 
 Before deploying NethVoice, ensure you have:
 
+- ✅ **System Resources**: Minimum 2 vCPU, 2GB RAM, 40GB storage per instance
+- ✅ **Network Requirements**: Static IP, DNS configured, internet connectivity
 - ✅ **NethServer 8**: Fully installed and configured (see [Installation Guide](./install/))
 - ✅ **User Domain**: Created for users and authentication (see [User Domains in NethServer Installation](./install/nethserver.md#user-domains))
 - ✅ **NethVoice Proxy**: Installed and configured with proper FQDN and DNS records (required for any NethVoice deployment)
-- ✅ **Network Requirements**: Static IP, DNS configured, internet connectivity
-- ✅ **System Resources**: Minimum 2 vCPU, 2GB RAM, 40GB storage per instance
 
 ### Deployment Steps
 
-1. **[Review System Requirements](./install/#system-requirements)** - Ensure your infrastructure meets requirements
+1. **[Review System Requirements](./install/nethserver#system-requirements)** - Ensure your infrastructure meets requirements
 2. **[Install NethServer 8](./install/nethserver/)** - Deploy the base infrastructure platform
 3. **[Create User Domain](./install/nethserver.md#user-domains)** - Set up LDAP for users and authentication
 4. **[Install & Configure NethVoice Proxy](./nethvoice_proxy/)** - Deploy the external VoIP gateway (REQUIRED before NethVoice)

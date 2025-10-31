@@ -1,32 +1,59 @@
 ---
-title: First configuration
+title: First configuration wizard
 sidebar_position: 3
 ---
 
-# First configuration
-
-# First configuration
-
 The initial configuration wizard facilitates easy installation and setup of all NethVoice components.
+
+The wizard will guide you through the following sections:
+- **Extensions**: Configure user extensions.
+- **Trunks**: Set up trunk connections.
+- **Routes**: Define call routing rules.
 
 ## Extensions
 
-The first step in configuring NethVoice involves associating users with their telephone extensions.
+VoIP (Voice over Internet Protocol) extensions are virtual phone numbers that let people make and receive calls using the network instead of a traditional phone line. Each extension is a unique number inside your NethVoice system — colleagues can call one another by dialing that number. An extension can also receive external calls once the system’s phone lines are configured.
 
-You can manage users (create, update, reset passwords, delete) by accessing the dedicated section through the button [Link to the Portal](./install/nethserver.md#user-domains).
+During the initial setup, assign one extension to each user (we recommend starting from 200). Enter the extension number in the field and click Add to link it to the user.
 
-Enter the corresponding extensions for each user:
+This will list all users available in the user domain associated with the NethVoice instance.
+You can manage users (create, update, reset passwords, delete) by accessing the dedicated section through the button **[Link to the Portal](./install/nethserver.md#user-domains)**.
 
-- Input the extension number (recommended starting from 200) in the text field.
-- Click on Insert.
-- The user is highlighted, and a green checkmark appears if everything has been successful.
+Enter the corresponding extension for each user:
+
+1. Click the extension input for the selected user and enter a numeric extension (recommended starting at 200). Use digits only — no spaces or punctuation.  
+2. Click Add to assign the extension to the user.  
+3. On success the user row is highlighted and a green checkmark appears.
+
+:::info
+Installation without an subscription are limited to 8 users.
+:::
+
+Click the **Next** button to proceed to the Trunks section.
 
 ## Trunks
 
-In the trunks section, you can configure gateways to manage physical lines or create VoIP trunks by specifying the credentials of SIP lines provided by the provider.
+Trunks are the connections that allow your PBX to send and receive calls to and from external networks. They act as the bridge between internal extensions and the public telephone network or cloud telephony providers. Trunks can be implemented as cloud-based VoIP lines or as on‑premise physical connections using gateways to interface with the PSTN.
 
-Trunks, used to connect gateways or VoIP lines, are created using the PJSIP library.
+- VoIP trunks (cloud)
+  - Hosted by a service provider and delivered over the Internet using SIP/PJSIP.
+  - Pros: quick to provision, highly scalable, lower upfront cost, provider-managed redundancy and features (SIP credentials, codecs, encryption).
+  - Cons: depends on internet reliability and bandwidth; may require firewall/NAT and QoS configuration.
+  - Best when you prefer flexible, cloud-first deployments and rapid scaling.
 
+- Physical trunks (on‑premise via gateway)
+  - Use dedicated hardware gateways to connect the PBX to landline services (FXO/PRI/ISDN).
+  - Pros: direct PSTN connectivity, often lower latency and predictable behavior, works without Internet dependency, required in some regulated environments.
+  - Cons: higher upfront hardware and maintenance cost, model-specific configuration, limited scalability compared to cloud trunks.
+  - Best when local telco connectivity, regulatory constraints, or offline resilience are required.
+
+### Add physical lines
+
+To add physical lines, you need to configure a supported SIP gateway. See the [Supported Gateways](./provisioning/supported_gateways) section for a list of compatible devices.
+
+See the [Gateway provisioning](./provisioning/gateway_provisioning) section for detailed instructions on configuring and provisioning your
+
+If you do not wish to add physical lines, you can skip this section by clicking the **Next** button to proceed to VoIP trunks.
 
 
 ### Physical lines
@@ -244,11 +271,12 @@ All configured outbound routes in NethVoice are displayed, and you can enable/di
 The `Users` page establishes, for each individual user, personal settings and associated devices.
 
 The settings that can be modified are:
-\* `Profile`: Determines the permissions the user has.
-\* `Group`: Allows grouping of users to facilitate the distribution of configurations.
-\* `Mobile`: Enables associating a mobile number with the user to display it in the operator panel of NethVoice CTI and use it in presence management.
-\* `Voicemail Box`: Enables activating the voicemail box for the user as a destination for any failed calls.
-\* `Associate Device`: Allows selecting an unassociated phone and assigning it to the user from those managed with provisioning. It is possible to create credentials for use on a device not supported by provisioning. In this case, a custom device must be used.
+
+- `Profile`: Determines the permissions the user has.
+- `Group`: Allows grouping of users to facilitate the distribution of configurations.
+- `Mobile`: Enables associating a mobile number with the user to display it in the operator panel of NethVoice CTI and use it in presence management.
+- `Voicemail Box`: Enables activating the voicemail box for the user as a destination for any failed calls.
+- `Associate Device`: Allows selecting an unassociated phone and assigning it to the user from those managed with provisioning. It is possible to create credentials for use on a device not supported by provisioning. In this case, a custom device must be used.
 
 Then, the devices associated with the user are displayed.
 Devices can be of two types: software (Web Phone and Mobile App) or physical, tied to a phone configured with provisioning or a custom device.
